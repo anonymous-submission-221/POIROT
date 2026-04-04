@@ -1,12 +1,13 @@
 🕵️‍♂️ POIROT: Proactive Observation and Interleaved Reasoning On Traces for Video Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/YOUR_ORG/POIROT_OTA_Dataset) [![Model: Qwen2.5-VL](https://img.shields.io/badge/Base%20Model-Qwen2.5--VL-green)](#)
+[![Hugging Face Dataset]
+[![Model: Qwen2.5-VL](https://img.shields.io/badge/Base%20Model-Qwen2.5--VL-green)](#)
 
 Official PyTorch implementation and dataset for the paper **POIROT**. We introduce a novel hierarchical reasoning architecture designed to significantly improve how Multimodal Large Language Models (MLLMs) perform multi-step, spatio-temporal reasoning in complex videos.
 
 <p align="center">
-  <img src="figure/1.tif" width="80%" alt="POIROT Architecture Overview">
+  <img src="figure1.pdf" width="80%" alt="POIROT Architecture Overview">
   <br>
   <em>Figure 1: The Observe-Think-Action workflow and diagram of POIROT.</em>
 </p>
