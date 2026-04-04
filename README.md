@@ -31,7 +31,7 @@ We introduce a novel hierarchical reasoning architecture designed to significant
 
 ```bash
 # Clone the repository
-git clone [https://github.com/anonymous-submission-221/POIROT.git](https://github.com/anonymous-submission-221/POIROT.git)
+git clone https://github.com/anonymous-submission-221/POIROT.git
 cd POIROT
 
 # Create a conda environment
