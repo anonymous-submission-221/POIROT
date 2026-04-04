@@ -17,7 +17,7 @@ We introduce a novel hierarchical reasoning architecture designed to significant
 * **Visualized Chain-of-Thought (V-CoT):** Shifts the paradigm from coarse frame-level perception to explicit object-level investigation. By outputting pure coordinate traces (`<box>[x1, y1, x2, y2]</box>`), the model effectively filters out visual noise and anchors its logic to physical reality.
 * **Observe-Think-Action (O-T-A) Workflow:** An autonomous loop that empowers the agent to proactively track entities across frames, deduce spatio-temporal causal associations, and retrieve new frames when evidentiary gaps exist.
 * **SG-GDPO Reinforcement Learning:** A state-of-the-art multi-dimensional RL framework featuring:
-  ** Hungarian Matching:** A dense spatial reward (mIoU) utilizing bipartite graph matching to strictly penalize grounding hallucinations.
+  **Hungarian Matching:** A dense spatial reward (mIoU) utilizing bipartite graph matching to strictly penalize grounding hallucinations.
   **Lightweight PRM:** Asynchronous RPC calls to a smaller LLM (e.g., Qwen2.5-1.5B) to verify cross-graph logical consistency and suppress causal confusion.
 
 ---
