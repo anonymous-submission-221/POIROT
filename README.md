@@ -1,7 +1,7 @@
 ## 🕵️‍♂️ POIROT: Proactive Observation and Interleaved Reasoning On Traces for Video Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/YOUR_ORG/POIROT_OTA_Dataset) 
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/anonymous-submission-221/OTA-76k) 
 [![Model: Qwen2.5-VL](https://img.shields.io/badge/Base%20Model-Qwen2.5--VL-green)](#)
 
 We introduce a novel hierarchical reasoning architecture designed to significantly improve how Multimodal Large Language Models (MLLMs) perform multi-step, spatio-temporal reasoning in complex videos.
@@ -31,7 +31,7 @@ We introduce a novel hierarchical reasoning architecture designed to significant
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_GITHUB_USERNAME/POIROT.git](https://github.com/YOUR_GITHUB_USERNAME/POIROT.git)
+git clone [https://github.com/anonymous-submission-221/POIROT.git](https://github.com/anonymous-submission-221/POIROT.git)
 cd POIROT
 
 # Create a conda environment
