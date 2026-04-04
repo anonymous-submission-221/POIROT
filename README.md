@@ -7,7 +7,7 @@
 Official PyTorch implementation and dataset for the paper **POIROT**. We introduce a novel hierarchical reasoning architecture designed to significantly improve how Multimodal Large Language Models (MLLMs) perform multi-step, spatio-temporal reasoning in complex videos.
 
 <p align="center">
-  <img src="figure1.pdf" width="80%" alt="POIROT Architecture Overview">
+  <img src="figure1.png" width="80%" alt="POIROT Architecture Overview">
   <br>
   <em>Figure 1: The Observe-Think-Action workflow and diagram of POIROT.</em>
 </p>
