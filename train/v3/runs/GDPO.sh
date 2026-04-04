@@ -1,0 +1,25 @@
+#!/bin/bash
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 NPROC_PER_NODE=8 swift rl \
+    --rlhf_type grpo \
+    --model /root/autodl-tmp/output/qwen2.5-vl-poirot-v2/v2-20260311-015533/checkpoint-700 \
+    --dataset gdpo_train.jsonl \
+    --train_type full \
+    --output_dir output/qwen2.5-vl-poirot-gdpo \
+    --system "You are an expert visual reasoning assistant. Please strictly output in the required XML format including <observe>, <think>, <action>." \
+    --max_length 24576 \
+    --max_pixels 501760 \
+    --max_steps 1200 \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 4 \
+    --learning_rate 1e-6 \
+    --warmup_ratio 0.03 \
+    --num_generations 8 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --reward_funcs format_reward_func class_aware_iou_reward_func generative_accuracy_reward_func logical_consistency_reward_func \
+    --kl_coef 0.01 \
+    --cliprange 0.2 \
+    --vllm_sync_backend nccl \
+    --gradient_checkpointing true \
+    --save_steps 200 \
+    --logging_steps 5
